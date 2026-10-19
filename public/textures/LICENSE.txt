@@ -1,0 +1,58 @@
+Planet and sky maps are the Solar System Scope texture set (2K base, with 4K–8K close-up maps where published).
+Author: Solar System Scope (https://www.solarsystemscope.com/textures/)
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+The maps are based on NASA elevation and imagery. Credit Solar System Scope when reusing them.
+
+Included close-up files, mirrored from Wikimedia Commons copies of that set:
+- hi/earth_day.jpg, hi/earth_night.jpg, hi/earth_clouds.jpg (8192×4096)
+- earth_normal.png and earth_spec.png (2048×1024, converted from the 2K TIFF normal and specular maps)
+- hi/moon.jpg, hi/mars.jpg, hi/mercury.jpg, hi/venus_surface.jpg (8192×4096)
+- hi/jupiter.jpg, hi/saturn.jpg, hi/sun.jpg, hi/venus_atmosphere.jpg (4096×2048)
+- hi/milkyway.jpg (8192×4096)
+- hi/saturn_ring.png (8192×500 radial strip)
+
+Pluto (pluto.jpg) is the New Horizons global map "Nh-pluto-map.jpg", public domain.
+Credit: NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute
+https://commons.wikimedia.org/wiki/File:Nh-pluto-map.jpg
+
+Physical numbers in the app follow the NASA NSSDCA planetary fact sheets:
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+
+Moon maps (textures/moons/*.webp, downscaled), via Wikimedia Commons:
+- Io: USGS Astrogeology Galileo/Voyager mosaic, public domain (File:Io_for_GeoHacks.jpg)
+- Europa: NASA/JPL/USGS Voyager map, public domain
+- Ganymede: Björn Jónsson from NASA Voyager/Galileo images, attribution
+- Titan, Enceladus, Mimas, Tethys, Dione, Rhea, Iapetus: NASA/JPL/Space Science Institute (Cassini), public domain
+- Miranda, Triton: NASA/JPL/USGS (Voyager 2), public domain. Unimaged areas filled with mean tone.
+- Charon: NASA/JHUAPL/SwRI (New Horizons), public domain. Unimaged south filled with mean tone.
+- Deimos: color map, CC BY-SA 3.0 (File:Deimos_color_map.jpg)
+Spacecraft tracks: JPL Horizons. Planet and Moon positions: astronomy-engine (MIT).
+
+Round 4 universe assets:
+- universe/gaia_sky.jpg: ESA/Gaia/DPAC (Wikimedia Commons), CC BY 4.0
+- universe/m31.jpg: NASA/JPL-Caltech (GALEX), public domain
+- universe/m33.jpg: User:Popcorn4life, Wikimedia Commons, CC BY 4.0
+- universe/lmc.jpg: ESO, CC BY 4.0
+- universe/smc.jpg: ESA/Hubble heic0603d, public domain
+- universe/milkyway_faceon.jpg: NASA/JPL-Caltech/R. Hurt (ssc2008-10a), public domain artist's concept
+- /data/2mrs.json: 2MASS Redshift Survey, Huchra et al. 2012, ApJS 199, 26 (VizieR J/ApJS/199/26)
+- /data/satellites.json: JPL SSD Planetary Satellite Mean Elements (ssd.jpl.nasa.gov/sats/elem) and Physical Parameters (ssd.jpl.nasa.gov/sats/phys_par)
+
+Round 5:
+- hi/*.webp: WebP re-encodes of the Solar System Scope maps above (CC BY 4.0).
+- hi/pluto.webp, pluto.jpg: "Pluto color mapmosaic.jpg", NASA/JHUAPL/SwRI (New Horizons), public domain. Unimaged south filled with mean tone.
+- hi/mars_normal.webp: computed from MGS MOLA MEGDR 16 px/deg elevation (megt90n000eb.img, NASA PDS Geosciences Node), public domain.
+- hi/moon_normal.webp: computed from LRO LOLA elevation (ldem_16_uint.tif, NASA SVS CGI Moon Kit, svs.gsfc.nasa.gov/4720), public domain.
+
+Deep-sky images (textures/dso/*.webp, cropped and vignetted), via Wikimedia Commons:
+- m42: NASA, ESA, M. Robberto (STScI/ESA) and the Hubble Orion Treasury Project Team, public domain
+- carina, m16, omegacen: ESO, CC BY 4.0
+- m1: NASA, ESA, J. Hester and A. Loll (ASU), public domain
+- helix: NASA, ESA, Hubble (HST proposal 9700), public domain (per Commons file page)
+- m57: Hubble Heritage Team (AURA/STScI/NASA), public domain
+- m45: NASA, ESA, AURA/Caltech, Palomar Observatory, public domain
+- hudf: NASA, ESA, H. Teplitz and M. Rafelski (IPAC/Caltech), A. Koekemoer (STScI), R. Windhorst (ASU), Z. Levay (STScI), public domain
+Positions: SIMBAD (J2000). Distances: NASA Hubble Messier catalog and ESO pages linked in each object's panel.
+
+Nearby stars (public/data/stars.json): HYG Database v3+ by David Nash (astronexus), CC BY-SA 4.0, https://github.com/astronexus/HYG-Database
